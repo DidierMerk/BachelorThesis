@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+tqdm
+PyYAML
+uproot3
+awkward0
+lz4
+xxhash
+tables
