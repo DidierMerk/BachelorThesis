@@ -8,8 +8,9 @@ if not os.path.exists(credentials_dir):
 
 with open(credentials_dir + '/credentials', 'w') as f:
     f.write('[default]\n')
-    f.write('aws_access_key_id=40644ce6817945868b382fc57a787739\n')
-    f.write('aws_secret_access_key=517212e2ad9e4d7a81e63145e14338c4\n')
+    # Removed access keys for privacy
+    f.write('aws_access_key_id=1234\n')
+    f.write('aws_secret_access_key=1234\n')
     
 download_list = ['train_QuarkGluon.sh', 'env.sh', '.pt', '.py', '.parquet', 'qg']
 dir_list = ['data', 'datasets', 'models', 'networks']    
